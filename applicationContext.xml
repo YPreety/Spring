@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+ <!-- Bean Demo configuration --> 
+<bean id="studentbean" class="BeanDemo.Student"> 
+<property name="id" value="101"></property> 
+<property name="name" value="Preety"></property>
+<property name="email" value="Preety@gmail.com"></property>  
+</bean>  
+
+<!-- ApplicationContextDemo configuration --> 
+<bean id="employeebean" class="ApplicationContextDemo.Employee"> 
+<property name="id" value="102"></property> 
+<property name="name" value="Preeti"></property>
+<property name="email" value="Preeti@gmail.com"></property>  
+</bean>  
+  
+</beans>  
